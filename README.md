@@ -65,13 +65,15 @@ Everything else is detail. These three are the contract:
 
 ## Companion pieces
 
-This says how you **talk** to an agent that runs elsewhere. Its companions say how you **ask**
-and how the agent **proves**:
+This says how you **talk** to an agent that runs elsewhere. Its companions say how you **ask**,
+how the agent **proves**, and who may say **yes**:
 
 * [work-order-contract](https://github.com/edgebuildlabs/work-order-contract) — how to ask for
   the work so that proof is possible.
 * [evidence-contracts](https://github.com/edgebuildlabs/evidence-contracts) — how the agent
   reports what it ran, when, and what came back.
+* [mandate-contract](https://github.com/edgebuildlabs/mandate-contract) — whose word an action needs, how
+  that word travels, and what may run with no word at all.
 
 ## License
 
