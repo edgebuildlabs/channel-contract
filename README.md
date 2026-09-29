@@ -66,7 +66,7 @@ Everything else is detail. These three are the contract:
 ## Companion pieces
 
 This says how you **talk** to an agent that runs elsewhere. Its companions say how you **ask**,
-how the agent **proves**, and who may say **yes**:
+how the agent **proves**, who may say **yes**, and how the record **keeps its meaning** across writers that do not remember it:
 
 * [work-order-contract](https://github.com/edgebuildlabs/work-order-contract) — how to ask for
   the work so that proof is possible.
@@ -74,6 +74,8 @@ how the agent **proves**, and who may say **yes**:
   reports what it ran, when, and what came back.
 * [mandate-contract](https://github.com/edgebuildlabs/mandate-contract) — whose word an action needs, how
   that word travels, and what may run with no word at all.
+* [continuity-contract](https://github.com/edgebuildlabs/continuity-contract) — how the record **keeps its meaning**
+  across writers that do not remember it.
 
 ## License
 
